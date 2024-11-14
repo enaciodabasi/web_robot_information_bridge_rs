@@ -1,0 +1,10 @@
+[package]
+name = "web_robot_information_bridge_rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1", features = ["derive"] }
+config = "0.14.1"
+serde_json = "1.0.132"
